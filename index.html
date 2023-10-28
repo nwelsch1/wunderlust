@@ -195,14 +195,14 @@ ________________________________________
 ________________________________________
     <form id="form">
         <h2>Contact Us</h2>
-            <section id="columnone">
-                <label for="fname">First Name<br>
-                <input type="text" name="fname" id="fname" placeholder="Enter First Name" size="20"></label><br>
-                <label for="lname">Last Name<br>
-                <input type="text" name="lname" id="lname" placeholder="Enter Last Name" size="20"></label><br>
-            </section>
-            <section id="columntwo">
-
+            <div class="row">
+                <div class="column">
+                    <label for="fname">First Name<br>
+                    <input type="text" name="fname" id="fname" placeholder="Enter First Name" size="20"></label><br>
+                    <label for="lname">Last Name<br>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last Name" size="20"></label><br>
+                </div>
+                <div class="column">
                     <label>Contact Method</label><br>
                     <input type="radio" name="contact" value="email">
                     <label for="email">Email</label>
@@ -210,36 +210,36 @@ ________________________________________
                     <label for="text">Text</label>
                     <input type="radio" name="contact" value="tel">
                     <label for="tel">Phone</label><br>
-
-               <label for="emailadd">Email Address<br>
-               <input type="text" name="emailadd" id="emailadd" placeholder="Enter Email" size="20"></label><br>
-               <label for="phoneadd">Phone Number<br>
-               <input type="text" name="phoneadd" id="phoneadd" placeholder="Enter Telephone Number" size="20"></label><br>
-            </section>
-            <section id="columnthree">
-                <label for="destin">Destination</label><br>
-                <select id="destin">
-                    <option value="choose">Choose Destination</option>
-                    <option value="BCN">Barcelona</option>
-                    <option value="GRX">Granada</option>
-                    <option value="IBZ">Ibiza</option>
-                    <option value="MAD">Madrid</option>
-                    <option value="PMI">Majorca</option>
-                    <option value="SEV">Seville</option>
-                    <option value="TFN">Tenerife</option>
-                    <option value="XVAL">Valencia</option>
-                </select><br>
-                <label for="TTime">Travel Time</label><br>
-                <select id="TTime">
-                    <option value="choose">Choose Destination</option>
-                    <option value="fall">Fall</option>
-                    <option value="winter">Winter</option>
-                    <option value="spring">Spring</option>
-                    <option value="summer">Summer</option>
-                    <option value="flex">Flexible</option> 
-                </select><br>
-                <input type="submit" value="SUBMIT">
-            </section>
+                    <label for="emailadd">Email Address<br>
+                    <input type="text" name="emailadd" id="emailadd" placeholder="Enter Email" size="20"></label><br>
+                    <label for="phoneadd">Phone Number<br>
+                    <input type="text" name="phoneadd" id="phoneadd" placeholder="Enter Telephone Number" size="20"></label><br>
+                </div>
+                <div class="column">
+                    <label for="destin">Destination</label><br>
+                    <select id="destin">
+                        <option value="choose">Choose Destination</option>
+                        <option value="BCN">Barcelona</option>
+                        <option value="GRX">Granada</option>
+                        <option value="IBZ">Ibiza</option>
+                        <option value="MAD">Madrid</option>
+                        <option value="PMI">Majorca</option>
+                        <option value="SEV">Seville</option>
+                        <option value="TFN">Tenerife</option>
+                        <option value="XVAL">Valencia</option>
+                    </select><br>
+                    <label for="TTime">Travel Time</label><br>
+                    <select id="TTime">
+                        <option value="choose">Choose Destination</option>
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="flex">Flexible</option> 
+                    </select><br>
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </div>
     </form>
 
 </main>
