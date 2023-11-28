@@ -138,8 +138,8 @@ img{
     p {
         min-height:auto;
     }
-    #button {
-        visibility: invisible;
+    #menuToggle {
+        visibility: visible;
         display: block;
         height:auto;
         background-color: #f6d64a;
@@ -156,7 +156,7 @@ img{
     nav ul {
         display: none;
         position: absolute;
-        background-color: rgba(0,0,0,.85);
+        background-color: #55BCD5;
         width:150px;
         z-index: 1;
     }
