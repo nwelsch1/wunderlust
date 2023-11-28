@@ -139,7 +139,8 @@ img{
       min-height:auto;
     }
     #button {
-      visibility:visible;
+      visibility: invisible;
+      display: block;
       height:auto;
       background-color: #f6d64a;
       border:2px solid #ffffff;
