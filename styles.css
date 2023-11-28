@@ -127,14 +127,17 @@ img{
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
+#menuToggle input {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    
+}
 
 @media hover{
     text-decoration: border;
 }
 @media screen and (min-width: 675px){
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 2rem 0;
+ 
 }
