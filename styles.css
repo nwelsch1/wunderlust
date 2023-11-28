@@ -113,8 +113,8 @@ img{
     height:1px;
     overflow:hidden;
 }
-.menu-toggle {
-    display: block;
+#menu-toggle {
+    dsiplay: block;
     background-color: #f6d64a;
 }
 
