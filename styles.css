@@ -91,6 +91,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 h1 {
+    font-family: 'Molle', cursive;
     font-size: 2em;
     padding: 0.5em;
 }
