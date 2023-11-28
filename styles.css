@@ -99,13 +99,6 @@ h1 {
     padding: 0.5em;
 }
 
-nav ul{
-	width: 100%;
-	max-width: 800px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
 
 img{
     display: block;
@@ -120,7 +113,10 @@ img{
     height:1px;
     overflow:hidden;
 }
-
+.menu-toggle {
+    display: block;
+    background-color: #f6d64a;
+}
 
 @media hover{
     text-decoration: border;
