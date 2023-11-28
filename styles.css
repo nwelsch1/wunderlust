@@ -65,6 +65,9 @@ table {
     box-sizing: border-box;
     line-height: 1.35;
 }
+#skip {
+    visibility: hidden;
+}
 body {
     box-sizing: border-box;
     margin: 0;
@@ -116,7 +119,7 @@ img{
     width:1px;
     height:1px;
     overflow:hidden;
-    }
+}
 
 
 @media hover{
