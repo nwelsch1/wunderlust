@@ -60,6 +60,7 @@ table {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
-h1 h2 h3 {
+h1, h2, h3 {
+    font-weight: bold;
     font-family: 'Molle', cursive;
 }
