@@ -62,13 +62,21 @@ Also review the alt text on all of the images to ensure that it is descriptive a
                 </div>
             </nav>
         </header>
-        <main>
-            <article>  
-                <h2>Majorca</h2>
-                <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
-                <img src="images/majorca-waves.png" alt="Turquoise blue waters with white wave caps crashing against a rock cliff">
-                <img src="images/majorca-beach.png" alt="secluded private beach tucked between to land masses with turquoise blue waters leading out of a cove">
-                <img src="images/majorca-cove.png" alt="Deep blue water leading to the horizon with the island and trees in the foreground">
+        <main id="main-content">
+            <article> 
+                <div id="intro">  
+                    <h2>Majorca</h2>
+                    <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
+                    <div id="img-grid">
+                        <img src="images/majorca-waves.png" alt="Turquoise blue waters with white wave caps crashing against a rock cliff">
+                        <img src="images/majorca-beach.png" alt="secluded private beach tucked between to land masses with turquoise blue waters leading out of a cove">
+                        <picture>
+                            <source srcset="images/majorca-cove-small.png"
+                                media="(max-width: 500px)">
+                            <img src="images/majorca-cove.png" alt="Deep blue water leading to the horizon with the island and trees in the foreground">
+                        </picture>
+                    </div>
+                </div>    
                 <section>
                     <h3>Plan Your Trip</h3>
                     <section>
