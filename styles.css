@@ -218,5 +218,16 @@ a {
 #menu--toggle input:checked ~ ul {
     left: 50px;
 }
+/*--Main Content--Intro--*/
+#intro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: 
+    "majorca"
+    "text"
+    "gallery";
+}
 
 
