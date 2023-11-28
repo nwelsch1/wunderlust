@@ -72,8 +72,6 @@ body {
 }
 header{ 
     width: 100%;
-    display: grid;
-    grid-template-columns:1fr 1fr;
     margin-right: 150px;
     padding: 1rem 0;
     background-color: var(--teal);
