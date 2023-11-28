@@ -138,6 +138,47 @@ img{
 @media hover{
     text-decoration: border;
 }
-@media screen and (min-width: 675px){
- 
-}
+@media screen and (max-width:900px) {
+    header {
+      grid-template-columns:2fr 1fr;
+    }
+    main {
+      grid-template-columns: 1fr;
+    }
+    p {
+      min-height:auto;
+    }
+    #button {
+      visibility:visible;
+      height:auto;
+      background-color: #f6d64a;
+      border:2px solid #ffffff;
+      color: white;
+      width: 150px;
+      cursor: pointer;
+    }
+    nav {
+      position: relative;
+      display: inline-block;
+      top:25px;
+    }
+    nav ul {
+      display: none;
+      position: absolute;
+      background-color: rgba(0,0,0,.85);
+      width:150px;
+      z-index: 1;
+    }
+    nav a {
+      color: #ffffff;
+      visibility: visible;
+      display:block;
+      text-align:center;
+    }
+    nav li {
+      border-bottom:1px solid #ffffff;
+    }
+    nav:hover ul {
+      display: block;
+    }
+  }
