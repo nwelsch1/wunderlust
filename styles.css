@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 h1 {
     font-family: 'Molle', cursive;
-    font-size: 2em;
+    font-size: 50pt;
     padding: 0.5em;
 }
 
@@ -132,7 +132,7 @@ img{
     width: 30px;
     height: 30px;
     position: absolute;
-    
+
 }
 
 @media hover{
