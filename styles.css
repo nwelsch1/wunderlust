@@ -116,13 +116,14 @@ img{
 #menuToggle {
     display: block;
     position: relative;
+    background-color: #f6d64a;
     top: 50px;
     right: 50px;
     z-index: 2;
 }
 #menuToggle a {
     text-decoration: none;
-    background-color: #f6d64a;
+    
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
@@ -165,12 +166,12 @@ img{
     nav ul {
       display: none;
       position: absolute;
-      background-color: rgba(0,0,0,.85);
+      background-color: #55BCD5;
       width:150px;
       z-index: 1;
     }
     nav a {
-      color: #ffffff;
+      color: #000000;
       visibility: visible;
       display:block;
       text-align:center;
