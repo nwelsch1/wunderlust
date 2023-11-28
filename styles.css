@@ -104,6 +104,14 @@ nav ul{
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    margin: 0.5em 0;
+}
+
+
+
 @media hover{
     text-decoration: border;
 }
