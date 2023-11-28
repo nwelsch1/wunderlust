@@ -57,8 +57,6 @@ table {
     --white: #ffffff;
     --black: #000000;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Molle', cursive;
     box-sizing: border-box;
 }
 * {
