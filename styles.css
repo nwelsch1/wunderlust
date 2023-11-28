@@ -229,5 +229,15 @@ a {
     "text"
     "gallery";
 }
+#intro h2 {
+    display: grid;
+    grid-area: majorca;
+    padding: 0 1rem 1rem 1rem;
+}
+#intro p {
+    display: grid;
+    grid-area: text;
+    padding: 0 1rem 1rem 1rem;
+}
 
 
