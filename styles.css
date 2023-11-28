@@ -135,8 +135,8 @@ img{
 
 }
 
-@media hover{
-    text-decoration: border;
+@media (hover:hover){
+    
 }
 @media screen and (max-width:900px) {
     header {
