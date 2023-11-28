@@ -115,7 +115,10 @@ img{
 }
 #menu-toggle {
     dsiplay: block;
-    background-color: #f6d64a;
+    position: relative;
+    top: 50px;
+    right: 50px;
+
 }
 
 @media hover{
