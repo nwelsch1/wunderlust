@@ -75,7 +75,7 @@ table {
 }
 #skip :focus {
     position: static;
-    width:aut6o;
+    width:auto;
     height: auto;
 }
 body {
