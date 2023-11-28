@@ -46,6 +46,9 @@ table {
     border-spacing: 0;
 }
 /*End of Reset*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
+</style>
 :root{
     --yellow: #f6d64a;
     --teal: #55BCD5;
