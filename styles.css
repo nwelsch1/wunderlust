@@ -116,28 +116,7 @@ img{
     height:1px;
     overflow:hidden;
 }
-#menuToggle {
-    display: block;
-    position: relative;
-    background-color: #f6d64a;
-    top: 50px;
-    right: 50px;
-    z-index: 2;
-}
-#menuToggle a {
-    text-decoration: none;
-    
-    -webkit-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-}
-#menuToggle input {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
 
-}
 
 @media (hover:hover){
     
@@ -161,28 +140,34 @@ img{
       width: 150px;
       cursor: pointer;
     }
-    nav {
-      position: relative;
-      display: inline-block;
-      top:25px;
+    #menuToggle {
+        display: block;
+        position: relative;
+        background-color: #f6d64a;
+        top: 50px;
+        right: 50px;
+        z-index: 2;
+
+        width:150px;
+        z-index: 1;
     }
-    nav ul {
-      display: none;
-      position: absolute;
-      background-color: #55BCD5;
-      width:150px;
-      z-index: 1;
+    #menuToggle a {
+        text-decoration: none;
+        color: #000000;
+        visibility: visible;
+        display:block;
+        text-align:center;
+        
+        -webkit-transition: color 0.3s ease;
+        -o-transition: color 0.3s ease;
+        transition: color 0.3s ease;
     }
-    nav a {
-      color: #000000;
-      visibility: visible;
-      display:block;
-      text-align:center;
+    #menuToggle input {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-color: #55BCD5;
     }
-    nav li {
-      border-bottom:1px solid #ffffff;
-    }
-    nav:hover ul {
-      display: block;
-    }
+
   }
