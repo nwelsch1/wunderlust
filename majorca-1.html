@@ -167,14 +167,22 @@ Also review the alt text on all of the images to ensure that it is descriptive a
                 <section id="contact">
                     <h3>Contact Us<span class="form-required">*required</span></h3>
                     <form method="post" action="https://wp.zybooks.com/form-viewer.php">
-                        <label for="fName">First Name<span class="required">*</span></label>
-                        <input type="text" name="fName" id="fName" autocomplete="given-name" placeholder="First Name" required>
-                        <label for="lName">Last Name<span class="required">*</span></label>
-                        <input type="text" name="lName" id="lName" autocomplete="family-name" placeholder="Last Name" required>
+                        <div id="names">
+                            <label for="fName">First Name<span class="required">*</span></label>
+                            <input type="text" name="fName" id="fName" autocomplete="given-name" placeholder="First Name" required>
+                            <label for="lName">Last Name<span class="required">*</span></label>
+                            <input type="text" name="lName" id="lName" autocomplete="family-name" placeholder="Last Name" required>
+                        </div>
+                        <div id="nums">
                         <fieldset>
                             <legend>Contact Method<span class="required">*</span></legend>
-                            <input type="radio" name="contactPref" id="prefEmail" required>
-                            <label for="prefEmail">Email</label>
+                                <label for="prefEmail">
+                                    <span class="radio-input">
+                                        <input type="radio" name="contactPref" id="prefEmail" required checked>
+                                        <span class="radio-control"></span>
+                                    </span>    
+                                    <span class="radio-label">Email</span>
+                                </label>
                             <input type="radio" name="contactPref" id="prefText">
                             <label for="prefText">Text</label>
                             <input type="radio" name="contactPref" id="prefPhone">
