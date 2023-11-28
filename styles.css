@@ -161,7 +161,7 @@ a {
     -0-transition: color 0.3s ease;
     transition: color 0.3s ease;    
 }
-/* The hamburger button hidden inside an input element */
+/*--The hamburger button hidden inside an input element--*/
 #menu-toggle input {
     display: block;
     width: 150px;
@@ -188,6 +188,26 @@ a {
 }
 #menu-toggle label span {
     display: none;
+}
+/*--Use absolute positioning to place the menu off-screen--*/
+#menu {
+    position: absolute;
+    width: 100%;
+    top: -50px;
+    margin: -100px 0 0 -50px;
+    background-color: var(--teal);
+    list-style-type: none;
+    /* Hide the menu off-screen to the left */
+    left: -100%;
+    -webkit-transition: left 0.3s ease;
+    -o-transition: left 0.3s ease;
+    transition: left 0.3s ease; 
+    display: grid;
+}
+#menu li {
+    
+    padding: 10px 0;
+    font-size: 22px;
 }
   
 
