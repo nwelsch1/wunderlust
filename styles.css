@@ -136,9 +136,6 @@ a {
 
 /*--nav--*/
 .sr-only {
-    visibility: hidden;
-}
-#menu-toggle {
     display: block;
     position: relative;
     top: 0px;
