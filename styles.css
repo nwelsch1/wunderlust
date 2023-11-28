@@ -120,7 +120,13 @@ img{
     right: 50px;
     z-index: 2;
 }
-#menuToggle
+#menuToggle a {
+    text-decoration: none;
+    background-color: #f6d64a;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
 
 @media hover{
     text-decoration: border;
