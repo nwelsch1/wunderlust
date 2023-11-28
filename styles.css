@@ -118,7 +118,7 @@ img{
     position: relative;
     top: 50px;
     right: 50px;
-    x-index: 2;
+    z-index: 2;
 }
 
 @media hover{
