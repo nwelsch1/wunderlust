@@ -46,9 +46,7 @@ table {
     border-spacing: 0;
 }
 /*End of Reset*/
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
-</style>
 :root{
     --yellow: #f6d64a;
     --teal: #55BCD5;
@@ -58,4 +56,10 @@ table {
     --light-gray: #eaeaea;
     --white: #ffffff;
     --black: #000000;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+h1 h2 h3 {
+    font-family: 'Molle', cursive;
 }
