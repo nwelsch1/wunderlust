@@ -65,7 +65,7 @@ table {
     box-sizing: border-box;
     line-height: 1.35;
 }
-#skip a{
+#skip {
     position:absolute;
     left:-10000px;
     top:auto;
@@ -73,7 +73,7 @@ table {
     height:1px;
     overflow:hidden;
 }
-#skip a:focus {
+#skip :focus {
     position: static;
     width:aut6o;
     height: auto;
