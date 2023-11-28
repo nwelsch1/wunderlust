@@ -65,13 +65,18 @@ table {
     box-sizing: border-box;
     line-height: 1.35;
 }
-#skip {
+#skip a{
     position:absolute;
     left:-10000px;
     top:auto;
     width:1px;
     height:1px;
     overflow:hidden;
+}
+#skip a:focus {
+    position: static;
+    width:aut6o;
+    height: auto;
 }
 body {
     box-sizing: border-box;
