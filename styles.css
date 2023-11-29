@@ -83,7 +83,7 @@ body {
     margin: 0;
     padding: 0;
 }
-nav, a, form, q, p {
+nav a, form, q, p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
 }
