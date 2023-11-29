@@ -240,7 +240,15 @@ a {
     justify-content: center;
     gap: 10px;
 }
-
+#plan div section {
+    background-color: var(--teal);
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: repeat(2, auto);
+    padding: 10px;
+    border: 3px var(--white) solid;
+}
 #plan section {
     padding-bottom: 1rem;
 }
