@@ -476,6 +476,10 @@ input#fName, input#lName, input#email, input#phone, select#destination, select#t
     display: grid;
     grid-area: nums;
 }
+#selects {
+    display: grid;
+    grid-area: selects;
+}
 fieldset {
     padding-bottom: 1rem;
     display: grid;
@@ -518,6 +522,11 @@ input[type="radio"]::before {
 input[type="radio"]:checked::before {
     transform: scale(1);
 }
+#selects {
+    display: grid;
+    grid-area: selects;
+}
+
 
 /*--Footer--*/
 
