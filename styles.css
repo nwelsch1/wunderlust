@@ -646,6 +646,14 @@ footer {
         margin: 0 10vw;
         padding: 5vh 0 2vh;
     }
+    #testimonials div {
+        display: grid;
+        margin: 0 10vw;
+        grid-template-columns: 1fr 1fr;
+    }
+    #testimonials p {
+        margin: 0;
+    }
     
 }
 
