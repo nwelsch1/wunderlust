@@ -543,9 +543,11 @@ div#custom-select{
 }
 /*--Footer--*/
 footer {
+    display: grid;
     background-color: var(--light-gray);
     justify-items: center;
     align-items: center;
+    height: 10rem;
 }
 
 /*--Small Screen--*/
