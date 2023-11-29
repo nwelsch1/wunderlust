@@ -303,22 +303,16 @@ img, picture {
 }
 /*--Main Content--About--*/
 #about {
-    background-color: var(--blue);
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-    "title"
-    "div";
-    padding: 1rem;
+    background-color: var(--blue);
+    justify-items: center;
 }
 #about div {
-    grid-area: div;
     display: grid;
-    grid-template-areas:
-    "size elevation"
-    "location population";
-    justify-content: center ;
+    margin-bottom: 2rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 1rem;
 }
 #about h3 {
     grid-area: title;
