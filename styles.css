@@ -568,6 +568,23 @@ footer {
         max-width: 30vw;
         align-items: center;
     }
+    header h1, header p {
+        display: grid;
+        grid-column: 2 / -1;
+        grid-row: 1 / 2;
+    }
+    header h1 {
+        position: relative;
+        font-size: 4rem;
+        top: 35%;
+    }
+    header p {
+        font-size: 1.3rem;
+        position: relative;
+        top: 50%;
+        max-width: 80%;
+        padding-top: 20px;
+    }
     #intro {
         display: flex;
         flex-direction: column;
