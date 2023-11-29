@@ -548,7 +548,11 @@ div#custom-select{
     margin-top: 0.5rem;
 }
 /*--Footer--*/
-
+footer {
+    background-color: var(--light-gray);
+    justify-items: center;
+    align-items: center;
+}
 
 /*--Small Screen--*/
 
