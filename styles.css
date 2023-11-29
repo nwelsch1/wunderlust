@@ -300,4 +300,16 @@ img, picture {
     grid-area: title;
     padding: 1rem 2rem;
 }
-
+#plan div {
+    padding-bottom: 1rem;
+    grid-area: icons;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-areas: 
+    "plane"
+    "hotel"
+    "boat"
+    "eat";
+}
