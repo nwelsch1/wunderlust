@@ -373,4 +373,22 @@ img, picture {
     grid-area: carmen;
     justify-items: center;
 }
+#testimonials q {
+    text-align: center;
+    font-style: italic;
+}
+#testimonials img{
+    padding: 0.25rem;
+}
+/*--Main Content--About--*/
+#about {
+    background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "title"
+    "div";
+    padding: 1rem;
+}
 
