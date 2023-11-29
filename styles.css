@@ -539,9 +539,9 @@ div#custom-select{
 }
 #mySubmit {
     background-color: #9B26B0;
+    color: #ffffff;
     margin-top: 0.5rem;
     text-transform: uppercase;
-
 }
 /*--Footer--*/
 footer {
@@ -550,7 +550,6 @@ footer {
     background-color: var(--light-gray);
     justify-items: center;
     align-items: center;
-    margin: 2rem auto;
     padding: 1rem;
     height: 10rem;
 }
