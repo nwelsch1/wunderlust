@@ -430,7 +430,6 @@ fieldset {
     grid-template-columns: 1fr 1fr 1fr ;
     
 }
-
 #contact #mySubmit {
     margin-top: 10px;
     background-color: var(--purple);
@@ -447,7 +446,6 @@ footer {
     padding: 10px;
     background-color: var(--lightGray);
 }
-
 footer a {
     text-decoration: none;
     padding: 5px;
@@ -457,15 +455,15 @@ footer a {
 
 
 /*--Screen Styles--*/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
     header {
         display: grid;
         grid-template-columns: 20vw 1fr;
         grid-template-rows: repeat(2, auto);
     }
-    header img {
-        max-width: 30vw;
+    #logo img {
         align-items: center;
+        max-width: 30vw;
     }
     header h1, header p {
         display: grid;
@@ -483,6 +481,10 @@ footer a {
         top: 50%;
         max-width: 80%;
         padding-top: 20px;
+    }
+    #menu-toggle {
+        align-items: center;
+        position: static;
     }
     #menu-toggle ul{
         display: grid;
