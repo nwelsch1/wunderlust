@@ -341,3 +341,23 @@ img, picture {
     "test";
     padding: 2rem;
 }
+#testimonials section {
+    display: grid;
+    padding: 1rem;
+    justify-items: center;
+}
+#testimonials div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    grid-template-areas: 
+    "miranda"
+    "max"
+    "ines"
+    "carmen";
+}
+#testimonials div > section:nth-of-type(1) {
+    grid-area: miranda;
+    justify-items: center;
+}
