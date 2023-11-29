@@ -613,6 +613,13 @@ footer {
         justify-content: center;
         margin: 0 8vw;
     }
+    #intro p {
+        padding: 0 10px 0 0;
+    }
+    #intro h2 {
+        padding: 5.5vh 0 0;
+    }
+    
 
 }
 
