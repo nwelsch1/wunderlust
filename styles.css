@@ -290,7 +290,7 @@ a {
     font-size: 30pt;
     margin-top: 10px;
 }
-#main-content #testimonials h3 {
+#testimonials h3 {
     display: grid;
     justify-self: left;
     padding: 2rem 2rem 1rem;
