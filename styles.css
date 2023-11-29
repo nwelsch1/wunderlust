@@ -314,29 +314,19 @@ img, picture {
     grid-template-rows: 50% 50%;
     gap: 1rem;
 }
-#about h3 {
-    grid-area: title;
-    grid-column: 1;
+#about h3{
+    display: flex;
+    line-height: 1;
+    font-size: 2.5rem;
+    padding: 1.5rem 1.5rem;
 }
 #about section {
-    display:grid;
+    display: grid;
+    grid-column: span 1;
+    justify-items: center;
+    align-items: center;
 }
-#about div > section:nth-of-type(1) {
-    grid-area: size;
-    justify-items: center; 
-}
-#about div > section:nth-of-type(2) {
-    grid-area: elevation;
-    justify-items: center;  
-}
-#about div > section:nth-of-type(3) {
-    grid-area: location;
-    justify-items: center;   
-}
-#about div > section:nth-of-type(4) {
-    grid-area: population;
-    justify-items: center;   
-}
+
 #about svg {
     padding: .5rem;
 }
