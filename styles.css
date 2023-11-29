@@ -475,9 +475,11 @@ footer a, footer p {
     }
     nav {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: var(--white);
         margin-top: 5vh;
         justify-items: center;
-        grid-column: 1 / -1;
+   
     }
     #menu-toggle {
         align-items: center;
