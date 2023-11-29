@@ -564,6 +564,10 @@ footer {
         grid-template-columns: 20vw 1fr;
         grid-template-rows: repeat(2, auto);
     }
+    header img {
+        max-width: 30vw;
+        align-items: center;
+    }
     #intro {
         display: flex;
         flex-direction: column;
