@@ -220,26 +220,16 @@ a {
 }
 #img-grid {
     display: grid;
-    grid-area: gallery;
+    width: 100%;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "waves"
-    "beach"
-    "cove";
-    justify-items: center;
-    align-content: center;
-    gap: 1rem;
-    padding: 1rem 0 1rem 0;
+    grid-template-rows: repeat(2, 33.33%) auto;
+    gap: 15px;
+    padding-bottom: 6rem;
 }
-div#img-grid > img:nth-of-type(1) {
-    grid-area: waves;
+#img-grid picture, #img-grid img {
     width: 100%;
-    max-width:466px; 
-}
-div#img-grid img:nth-of-type(2) {
-    grid-area: beach;
-    width: 100%;
-    max-width:466px;
+    height: 100%;
+    object-fit: cover;
 }
 picture {
     display: grid;
