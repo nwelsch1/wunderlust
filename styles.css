@@ -413,10 +413,10 @@ fieldset {
     
 }
 #contact #mySubmit {
+    text-transform: uppercase;
     margin-top: 10px;
     background-color: var(--purple);
     color: var(--white);
-    text-transform: uppercase;
 }
 /*--Footer--*/
 footer {
@@ -426,7 +426,7 @@ footer {
     align-items: center;
     margin-top: 5vh;
     padding: 10px;
-    background-color: var(--lightGray);
+    background-color: #eaeaea;
 }
 footer a {
     text-decoration: none;
