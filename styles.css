@@ -676,4 +676,9 @@ footer a {
     #plan section {
         min-width: 60%;
     }
+    #testimonials div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
 }
