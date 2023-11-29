@@ -639,12 +639,10 @@ footer a {
         grid-template-columns: 42% 1fr;
         grid-template-rows: repeat(3, auto);
     }
-
    #intro h2 {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-
     #intro p {
         font-size: .9rem;
         margin-right: 5px;
@@ -654,7 +652,6 @@ footer a {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-
     #intro #img-grid {
         grid-template-columns: 50% 50%;
         grid-column: 2/3;
@@ -664,7 +661,6 @@ footer a {
         margin: 0 9vw;
         padding: 5vh 0 0;
     }
-
     #plan div{
         display: grid;
         grid-template-columns: repeat(4, 25%);
@@ -672,7 +668,6 @@ footer a {
         justify-content: center;
         margin: 2vh 10vw 2vh;
     }
-
     #plan section {
         min-width: 60%;
     }
@@ -680,5 +675,32 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    
+    #about {
+        padding-bottom: 8vh;
+    }
+    #about div{
+        gap: 3rem;
+    }
+    #contact h3 {
+        grid-column: 1/-1;
+        margin: 0;
+        padding:  10vh 0 0;
+    }
+    #contact fieldset {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    #contact form input, #contact select {
+        height: 5vh;
+    }
+    #contact form {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        gap: 25px;
+        width: 90%;
+        margin: 0;
+    }
+    #mySubmit {
+        right: -12vw;
+    }
 }
