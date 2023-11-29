@@ -277,5 +277,14 @@ picture img {
 img, picture {
     display: grid;
 }
-
+/*--Main Content--Plan--*/
+#plan {
+    background-color: var(--yellow);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "title"
+    "icons";
+}
 
