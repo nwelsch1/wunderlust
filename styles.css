@@ -77,9 +77,10 @@ table {
     height: auto;
 }
 /*--global--*/
-* {
+html {
     box-sizing: border-box;
     line-height: 1.35;
+    width: 100%
 }
 body {
     box-sizing: border-box;
@@ -87,6 +88,10 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+nav, a, form, q, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
 }
 header{ 
     width: 100%;
@@ -251,6 +256,26 @@ a {
     align-content: center;
     gap: 1rem;
     padding: 1rem 0 1rem 0;
+}
+div#img-grid > img:nth-of-type(1) {
+    grid-area: waves;
+    width: 100%;
+    max-width:466px; 
+}
+div#img-grid img:nth-of-type(2) {
+    grid-area: beach;
+    width: 100%;
+    max-width:466px;
+}
+picture {
+    display: grid;
+    grid-area: cove;
+}
+picture img {
+    width: 100%;
+}
+img, picture {
+    display: grid;
 }
 
 
