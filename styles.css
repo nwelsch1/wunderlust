@@ -215,16 +215,7 @@ a {
     padding: .2rem 2rem 1rem;
 }
 
-picture {
-    display: grid;
-    grid-area: cove;
-}
-picture img {
-    width: 100%;
-}
-img, picture {
-    display: grid;
-}
+
 /*--Main Content--Plan--*/
 #plan {
     background-color: var(--yellow);
