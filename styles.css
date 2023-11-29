@@ -442,8 +442,9 @@ img, picture {
     overflow: hidden;
 }
 /*--Main Content--Contact Form--*/
-#form {
+#contact form {
     display: grid;
+    margin: 0.25rem 0.25rem;
 }
 .form-required {
     font-size: 1rem;
