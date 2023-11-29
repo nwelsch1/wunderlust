@@ -540,6 +540,8 @@ div#custom-select{
 #mySubmit {
     background-color: #9B26B0;
     margin-top: 0.5rem;
+    text-transform: uppercase;
+
 }
 /*--Footer--*/
 footer {
