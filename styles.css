@@ -545,7 +545,7 @@ div#custom-select{
 }
 /*--Footer--*/
 footer {
-    font-size: small;
+    font-size: x-small;
     display: grid;
     background-color: var(--light-gray);
     justify-items: center;
