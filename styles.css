@@ -469,4 +469,29 @@ fieldset {
     padding-bottom: 1rem;
     display: grid;
 }
-
+fieldset label {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+span.radio-label {
+    padding: 12px 0 0 30px;
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    margin: 0;
+    font: inherit;
+    width: 3rem;
+    height: 3rem;
+    border:#9B26B0 solid 0.15em;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
