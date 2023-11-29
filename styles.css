@@ -482,6 +482,12 @@ footer a {
         max-width: 80%;
         padding-top: 20px;
     }
+    nav {
+        display: grid;
+        margin-top: 5vh;
+        justify-items: center;
+        grid-column: 1 / -1;
+    }
     #menu-toggle {
         align-items: center;
         position: static;
