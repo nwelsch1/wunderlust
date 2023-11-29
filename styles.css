@@ -56,9 +56,9 @@ table {
     --light-gray: #eaeaea;
     --white: #ffffff;
     --black: #000000;
-    font-size: 16px;
-    font-family: 'Molle', cursive;
-    font-family: 'Montserrat', sans-serif;
+    --molleFont: 'Molle', cursive; 
+    --monsterratFont: 'Montserrat', sans-serif;
+    font-size: 16px; 
 }
 
 /*---skip to main content---*/
@@ -287,6 +287,7 @@ a {
     padding: 0.25rem;
 }
 #testimonials h4 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 30pt;
     margin-top: 10px;
 }
@@ -346,7 +347,7 @@ a {
     font-size: 1rem;
     padding-left: 10px;
     font-style: italic;
-    font-family: var(--monsterratFont);
+    font-family: 'Montserrat', sans-serif;;
 }
 #contact {
     display: flex;
