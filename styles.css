@@ -433,6 +433,14 @@ img, picture {
 #about svg {
     padding: .5rem;
 }
+#about img{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 /*--Main Content--Contact Form--*/
 .form-required {
     font-size: 1rem;
