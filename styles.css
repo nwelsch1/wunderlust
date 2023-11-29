@@ -431,4 +431,6 @@ img, picture {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
-
+.required {
+    color: var(--purple);
+ }
