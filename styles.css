@@ -422,4 +422,7 @@ img, picture {
     grid-area: population;
     justify-items: center;   
 }
+#about svg {
+    padding: .5rem;
+}
 
