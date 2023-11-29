@@ -325,6 +325,9 @@ img, picture {
     grid-column: span 1;
     justify-items: center;
     align-items: center;
+}#about p{
+    line-height: .5;
+    padding-bottom: 1rem;
 }
 
 #about svg {
