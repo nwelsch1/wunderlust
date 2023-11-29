@@ -474,8 +474,9 @@ footer a, footer p {
         padding-top: 100px;
     }
     nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         background-color: var(--white);
         margin-top: 5vh;
         justify-items: center;
