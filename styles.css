@@ -198,25 +198,13 @@ a {
 }
 
 /*--Main Content--Intro--*/
-#intro {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: 
-    "majorca"
-    "text"
-    "gallery";
-}
 #intro h2 {
-    display: grid;
-    grid-area: majorca;
-    padding: 0 1rem 1rem 1rem;
+    padding-top: 3rem;
 }
-#intro p {
-    display: grid;
-    grid-area: text;
-    padding: 0 1rem 1rem 1rem;
+#intro h2, #intro p{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: .2rem 2rem 1rem;
 }
 #img-grid {
     display: grid;
