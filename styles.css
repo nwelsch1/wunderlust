@@ -214,19 +214,7 @@ a {
     grid-column-end: -1;
     padding: .2rem 2rem 1rem;
 }
-#img-grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 33.33%) auto;
-    gap: 15px;
-    padding-bottom: 6rem;
-}
-#img-grid picture, #img-grid img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 picture {
     display: grid;
     grid-area: cove;
