@@ -376,7 +376,7 @@ a {
 
 
 label span.required {
-    color: red;
+    color: var(--purple);
 }
 
 #contact form label {
