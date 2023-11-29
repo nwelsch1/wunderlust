@@ -629,7 +629,7 @@ footer a, footer p {
     #intro {
         margin-top: 10vh;
         display: grid;
-        grid-template-columns: 42% 1fr;
+        grid-template-columns: 40% 1fr;
         grid-template-rows: repeat(3, auto);
     }
    #intro h2 {
