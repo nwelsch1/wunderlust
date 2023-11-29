@@ -585,6 +585,28 @@ footer {
         max-width: 80%;
         padding-top: 20px;
     }
+    #menu-toggle ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        width: 83vw;
+        background-color: transparent;
+    }
+    #menu-toggle li {
+        background-color: var(--lightGray);
+        height: 8vh;
+        font-weight: bold;
+        border: none;
+    }
+    #menu-toggle .active {
+        background-color: var(--yellow);
+    }
+    #menu-toggle li:hover {
+        background-color: var(--yellow);
+    }
+    #toggle, label[for="toggle"]{
+        display: none;
+    }
     #intro {
         display: flex;
         flex-direction: column;
