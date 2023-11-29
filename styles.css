@@ -331,6 +331,14 @@ img, picture {
 #plan svg {
     width: 100%;
 }
+#plan img{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 /*--Main Content--testimonials--*/
 #testimonials {
     display: grid;
@@ -433,4 +441,13 @@ img, picture {
 }
 .required {
     color: var(--purple);
- }
+}
+#contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "names"
+    "nums"
+    ;
+}
