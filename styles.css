@@ -453,4 +453,20 @@ img, picture {
     "custom"
     "travel";
 }
+input#fName, input#lName, input#email, input#phone, select#destination, select#travelTime, input#mySubmit {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+#names {
+    display: grid;
+    grid-area: names;
+}
+#nums {
+    display: grid;
+    grid-area: nums;
+}
+fieldset {
+    padding-bottom: 1rem;
+    display: grid;
+}
 
