@@ -562,9 +562,16 @@ footer {
     #intro {
         padding: 3rem;
     }
+    #menu {
+        grid-template-rows: 1fr;
+        padding: 2rem;
+    }
+    #plan div {
+
+    }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1100px) {
     #intro {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto auto auto;
@@ -573,4 +580,12 @@ footer {
         "none gallery";
         padding: 3rem 8rem;
     }
+    header p {
+        align-self: end;
+        padding: 0;
+    }
+    #plan div {
+        
+    }
+    
 }
