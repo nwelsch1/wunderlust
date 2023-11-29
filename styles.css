@@ -619,7 +619,13 @@ footer {
     #intro h2 {
         padding: 5.5vh 0 0;
     }
-    
+    #img-grid{
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 50% 50%;
+        overflow: hidden;
+        padding-bottom: 3rem;
+        gap: 10px;
+    }
 
 }
 
