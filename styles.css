@@ -703,4 +703,14 @@ footer a {
     #mySubmit {
         right: -12vw;
     }
+    footer {
+        grid-template-columns: 1fr 12% 20%;
+        justify-items: start;
+    }
+    footer p{
+        margin-left: 9vw;
+    }
+    footer a:last-child{
+        margin-right: 9vw;
+    }
 }
