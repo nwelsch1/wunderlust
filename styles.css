@@ -197,7 +197,7 @@ a {
 /*--Use absolute positioning to place the menu off-screen--*/
 #menu {
     position: absolute;
-    width: 100%;
+    width: 300px;
     top: -50px;
     margin: -100px 0 0 -50px;
     background-color: var(--teal);
