@@ -408,7 +408,7 @@ img, picture {
     justify-content: center ;
 }
 #about h3 {
-    grid-area:title;
+    grid-area: title;
     grid-column: 1;
 }
 #about section {
@@ -449,5 +449,8 @@ img, picture {
     "title"
     "names"
     "nums"
-    ;
+    "selects"
+    "custom"
+    "travel";
 }
+
