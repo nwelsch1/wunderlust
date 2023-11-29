@@ -543,10 +543,12 @@ select {
 div#custom-select{
     padding: 0;
 }
-
-
-
+#mySubmit {
+    background-color: #9B26B0;
+    margin-top: 0.5rem;
+}
 /*--Footer--*/
+
 
 /*--Small Screen--*/
 
