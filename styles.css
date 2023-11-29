@@ -497,7 +497,7 @@ input[type="radio"] {
     -webkit-appearance: none;
     appearance: none;
     background-color: #ffffff;
-    margin: 0;
+    margin: 0.5rem;
     font: inherit;
     width: 3rem;
     height: 3rem;
