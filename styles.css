@@ -480,6 +480,10 @@ input#fName, input#lName, input#email, input#phone, select#destination, select#t
     display: grid;
     grid-area: selects;
 }
+#travelTime {
+    display: grid;
+    grid-area: travel;
+}
 fieldset {
     padding-bottom: 1rem;
     display: grid;
@@ -522,10 +526,24 @@ input[type="radio"]::before {
 input[type="radio"]:checked::before {
     transform: scale(1);
 }
-#selects {
-    display: grid;
-    grid-area: selects;
+#contact label, legend {
+    padding: .25rem 0;
+    font-weight: 700;
 }
+#nums fieldset > label {
+    font-weight: 400;
+    padding: 0;
+}
+select { 
+    width: 100%;
+}
+#contact input, select {
+    border: solid 3px #9B26B0;
+}
+div#custom-select{
+    padding: 0;
+}
+
 
 
 /*--Footer--*/
