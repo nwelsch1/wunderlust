@@ -222,7 +222,7 @@ a {
     padding-bottom: 20px;
 }
 #plan h3 {
-    font-size: 2rem;
+    font-size: 40pt;
     padding: 2rem 2rem .5rem;
 }
 #plan h4 {
@@ -338,7 +338,7 @@ a {
 /*--Main Content--Contact Form--*/
 #contact h3{
     display: flex;
-    font-size: 40ptF;
+    font-size: 40pt;
     padding: 1.5rem 1.5rem;
 }
 
@@ -410,7 +410,14 @@ fieldset {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr ;
-    
+}
+fieldset label {
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    margin-top: 1em;
+    line-height: 1.1;
+    font-size: 1.25rem;
 }
 #contact #mySubmit {
     text-transform: uppercase;
