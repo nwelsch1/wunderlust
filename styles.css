@@ -545,6 +545,7 @@ footer a, footer p {
     #plan h3, #testimonials h3, #about h3 {
         margin: 0 10vw;
         padding: 5vh 0 2vh;
+        justify-content: center;
     }
     #testimonials div {
         display: grid;
