@@ -543,6 +543,7 @@ div#custom-select{
 }
 /*--Footer--*/
 footer {
+    font-size: small;
     display: grid;
     background-color: var(--light-gray);
     justify-items: center;
