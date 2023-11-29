@@ -541,7 +541,7 @@ select {
     border: solid 3px #9B26B0;
 }
 div#custom-select{
-    padding: 0;
+    padding: 0.5rem;
 }
 #mySubmit {
     background-color: #9B26B0;
