@@ -410,3 +410,16 @@ img, picture {
     grid-area: size;
     justify-items: center; 
 }
+#about div > section:nth-of-type(2) {
+    grid-area: elevation;
+    justify-items: center;  
+}
+#about div > section:nth-of-type(3) {
+    grid-area: location;
+    justify-items: center;   
+}
+#about div > section:nth-of-type(4) {
+    grid-area: population;
+    justify-items: center;   
+}
+
