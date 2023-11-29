@@ -403,4 +403,10 @@ img, picture {
     grid-area:title;
     grid-column: 1;
 }
-
+#about section {
+    display:grid;
+}
+#about div > section:nth-of-type(1) {
+    grid-area: size;
+    justify-items: center; 
+}
