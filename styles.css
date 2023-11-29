@@ -391,4 +391,12 @@ img, picture {
     "div";
     padding: 1rem;
 }
+#about div {
+    grid-area: div;
+    display: grid;
+    grid-template-areas:
+    "size elevation"
+    "location population";
+    justify-content: center ;
+}
 
