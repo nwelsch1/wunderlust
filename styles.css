@@ -331,3 +331,13 @@ img, picture {
 #plan svg {
     width: 100%;
 }
+/*--Main Content--testimonials--*/
+#testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "title"
+    "test";
+    padding: 2rem;
+}
