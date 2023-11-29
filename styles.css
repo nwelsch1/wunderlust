@@ -203,7 +203,7 @@ a {
     background-color: var(--teal);
     list-style-type: none;
     /* Hide the menu off-screen to the left */
-    left: -100%;
+    left: -300%;
     -webkit-transition: left 0.3s ease;
     -o-transition: left 0.3s ease;
     transition: left 0.3s ease; 
