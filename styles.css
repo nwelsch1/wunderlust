@@ -239,5 +239,18 @@ a {
     grid-area: text;
     padding: 0 1rem 1rem 1rem;
 }
+#img-grid {
+    display: grid;
+    grid-area: gallery;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "waves"
+    "beach"
+    "cove";
+    justify-items: center;
+    align-content: center;
+    gap: 1rem;
+    padding: 1rem 0 1rem 0;
+}
 
 
