@@ -329,7 +329,6 @@ img, picture {
     line-height: .5;
     padding-bottom: 1rem;
 }
-
 #about svg {
     padding: .5rem;
 }
@@ -342,105 +341,87 @@ img, picture {
     overflow: hidden;
 }
 /*--Main Content--Contact Form--*/
-#form {
-    display: grid;
-    margin: 0.25rem 0.25rem;
+#contact h3{
+    display: flex;
+    font-size: 2rem;
+    padding: 1.5rem 1.5rem;
 }
-.form-required {
+
+#contact h3 span{
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
     font-style: italic;
-}
-.required {
-    color: var(--purple);
+    font-family: var(--monsterratFont);
 }
 #contact {
     display: flex;
     flex-direction: column;
 }
-input#fName, input#lName, input#email, input#phone, select#destination, select#travelTime, input#mySubmit {
-    height: 3rem;
-    margin-bottom: 1rem;
+
+#contact input, #contact select {
+    border: var(--purple) solid 2px;
+    color: var(--darkGray);
+    background-color: transparent;
 }
-#names {
+
+#contact form {
     display: grid;
-    grid-area: names;
+    margin: 0 10vw;
 }
-#nums {
-    display: grid;
-    grid-area: nums;
+
+#contact form div {
+    display: flex;
+    flex-direction: column;
 }
-#selects {
-    display: grid;
-    grid-area: selects;
+
+#contact form input, #contact select{
+    height: 5vh;
+    border-radius: 0px;
 }
-#travelTime {
-    display: grid;
-    grid-area: travel;
+
+
+label span.required {
+    color: red;
+}
+
+#contact form label {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+#contact input[type="radio"]{
+    accent-color: var(--purple);
+    margin: 0 0 4px 2px;
+    width: 40px;
+    height: 40px;
+}
+
+#contact span.radio-input{
+    width: 40px;
+    height: 40px;
+}
+
+span.radio-label {
+    margin: 0 0 0 5px
+}
+
+#contact label[for^="pref"] {
+    display: flex;
+    align-items: center;
+    font-weight: normal;  
 }
 fieldset {
-    padding-bottom: 1rem;
     display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
 }
-fieldset label {
-    font-size: 1.25rem;
-    line-height: 1.1;
-    display: grid;
-    grid-template-columns: 1em auto;
-    gap: 0.5em;
-    margin-top: 1em;
-}
-span.radio-label {
-    padding: 12px 0 0 30px;
-}
-input[type="radio"] {
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: #ffffff;
-    margin: 0.5rem;
-    font: inherit;
-    width: 3rem;
-    height: 3rem;
-    border:#9B26B0 solid 0.15em;
-    border-radius: 50%;
-    transform: translateY(-0.075em);
-    display: grid;
-    place-content: center;
-    cursor: pointer;
-}
-input[type="radio"]::before {
-    content: "";
-    width: 1.25em;
-    height: 1.25em;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--purple);
-}
-input[type="radio"]:checked::before {
-    transform: scale(1);
-}
-#contact label, legend {
-    padding: .25rem;
-    font-weight: 700;
-}
-#nums fieldset > label {
-    font-weight: 400;
-    padding: 0.5rem;
-}
-select { 
-    width: 100%;
-}
-#contact input, select {
-    border: solid 3px #9B26B0;
-}
-div#custom-select{
-    padding: 0.5rem;
-}
-#mySubmit {
-    background-color: #9B26B0;
-    color: #ffffff;
-    margin-top: 0.5rem;
+
+#contact #mySubmit {
+    margin-top: 10px;
+    background-color: var(--purple);
+    color: var(--white);
     text-transform: uppercase;
 }
 /*--Footer--*/
