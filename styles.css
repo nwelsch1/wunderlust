@@ -455,15 +455,8 @@ img, picture {
     color: var(--purple);
 }
 #contact {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "title"
-    "names"
-    "nums"
-    "selects"
-    "custom"
-    "travel";
+    display: flex;
+    flex-direction: column;
 }
 input#fName, input#lName, input#email, input#phone, select#destination, select#travelTime, input#mySubmit {
     height: 3rem;
