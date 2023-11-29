@@ -442,7 +442,7 @@ img, picture {
     overflow: hidden;
 }
 /*--Main Content--Contact Form--*/
-#contact form {
+#form {
     display: grid;
     margin: 0.25rem 0.25rem;
 }
