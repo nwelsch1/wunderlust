@@ -287,4 +287,17 @@ img, picture {
     "title"
     "icons";
 }
+#plan h4 {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+#plan h3 {
+    display: grid;
+    grid-area: title;
+    padding: 1rem 2rem;
+}
 
