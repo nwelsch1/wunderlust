@@ -633,8 +633,9 @@ footer a {
         grid-row: 1/2;
     }
     #intro p {
-        font-size: .9rem;
+        font-size: 20pt;
         margin-right: 5px;
+        margin-top: 5px;
         line-height: 1.5;
         position: relative;
         top: 12vh;
