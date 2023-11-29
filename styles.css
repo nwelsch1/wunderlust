@@ -313,3 +313,6 @@ img, picture {
     "boat"
     "eat";
 }
+#plan div > section:nth-of-type(1) {
+    grid-area: plane;
+}
